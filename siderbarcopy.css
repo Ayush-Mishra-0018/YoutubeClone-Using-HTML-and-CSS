@@ -1,0 +1,29 @@
+#sidebar {
+    position: fixed;
+    top: 3.4375rem; /* 55px to rem */
+    left: 0;
+    bottom: 0;
+    width: 4.5rem; /* 72px to rem */
+    background-color: white;
+    z-index: 200;
+    padding-top: 0.3125rem; /* 5px to rem */
+}
+.sidebarlogo {
+    height: 4.625rem; /* 74px to rem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebarlogo div {
+    font-family: Roboto, Arial;
+    font-size: 0.625rem; /* 10px to rem */
+}
+.sidebarlogo img {
+    height: 1.5rem; /* 24px to rem */
+    margin-bottom: 0.25rem; /* 4px to rem */
+}
+.sidebarlogo:hover {
+    background-color: rgb(235, 235, 235);
+}
